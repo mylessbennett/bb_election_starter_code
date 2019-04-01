@@ -4,9 +4,18 @@
     <meta charset="utf-8">
     <title></title>
     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
     <script type="text/javascript" src="{% static 'js/main.js' %}"> </script>
   </head>
   <body>
+    <header>
+        <h1>Bikini Bottom Election</h1>
+        <img src="https://vignette.wikia.nocookie.net/p__/images/c/cb/SpongeBob_SquarePants_Render.png/revision/latest?cb=20190120193322&path-prefix=protagonist" alt="spongebob">
+    </header>
+    <main>
+      <h3>Results:</h3>
+      <ul class="candidates"></ul>
+  </main>
   </body>
 </html>
